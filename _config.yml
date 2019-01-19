@@ -1,5 +1,15 @@
 title: John Mansfield
 description: Recent GA tech grad student | Seeking full-time opportunities.  
 show_downloads: true
-google_analytics:
+google_analytics: 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132745363-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132745363-1');
+</script>
+
 theme: jekyll-theme-cayman
